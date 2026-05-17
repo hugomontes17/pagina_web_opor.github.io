@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #090909, #32025c);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-image: url("img/neon-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-size: 4rem;
+    color: #3ea6ff;
+    text-shadow: 0px 0px 10px #3ea6ff;
+}
+
+h2{
+    color: #3ea6ff;
+    margin-bottom: 20px;
+}
+
+.nav-space {
+    margin-right: 25px;
+}
+section{
+    background-color: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.arcade-img{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #00ffff; 
+
+}
+
+footer{
+    background-color: black;
+}
+
+.btn{
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
